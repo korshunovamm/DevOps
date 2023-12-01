@@ -1,14 +1,14 @@
 ---
 - name: Create docker
-  hosts: 127.0.0.1
+  hosts: [debian_group]
 
   tasks:
-    - name: Install Docker for Python
+    - name: Install docker
       pip:
         name: docker
 
     - docker_container:
-        name: application
+        name: PDRIS_HW_TASK3
         image: flask_app_pdris
         ports:
           - 5000:5000
