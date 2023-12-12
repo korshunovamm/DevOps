@@ -1,0 +1,29 @@
+Started by user [8mha:////4EKs98JOUvJOD6BOsu2m6ZFE2lPZHOVPrqAu82M9e/NpAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/korshunovamm/DevOps.git
+[8mha:////4ME2f+OyIn2b08ffvk5nWwpO66U+AOpRst91GOdwWnV4AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+java.io.FileNotFoundException: /var/jenkins_home/jobs/job2/builds/12/program.dat (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverReader.openStreamAt(RiverReader.java:196)
+	at org.jenkinsci.plugins.workflow.support.pickles.serialization.RiverReader.restorePickles(RiverReader.java:140)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.loadProgramAsync(CpsFlowExecution.java:859)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.onLoad(CpsFlowExecution.java:825)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.getExecution(WorkflowRun.java:719)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.onLoad(WorkflowRun.java:577)
+	at hudson.model.RunMap.retrieve(RunMap.java:233)
+	at hudson.model.RunMap.retrieve(RunMap.java:61)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:657)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:639)
+	at jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:537)
+	at hudson.model.RunMap.getById(RunMap.java:213)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.run(WorkflowRun.java:968)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.get(WorkflowRun.java:980)
+	at org.jenkinsci.plugins.workflow.flow.FlowExecutionList.resume(FlowExecutionList.java:226)
+	at org.jenkinsci.plugins.workflow.flow.FlowExecutionList$ItemListenerImpl.onLoaded(FlowExecutionList.java:217)
+	at jenkins.model.Jenkins.<init>(Jenkins.java:1045)
+	at hudson.model.Hudson.<init>(Hudson.java:86)
+	at hudson.model.Hudson.<init>(Hudson.java:82)
+	at hudson.WebAppMain$3.run(WebAppMain.java:247)
+ERROR: Failed to load program
+Finished: FAILURE

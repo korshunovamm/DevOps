@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@865.v43e78cc44e0d">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1283.v99c10937efcb_">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1283.v99c10937efcb_">
+          <startTime>1702418476947</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@865.v43e78cc44e0d">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1283.v99c10937efcb_">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <startId>2</startId>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1283.v99c10937efcb_">
+          <error class="hudson.AbortException">
+            <detailMessage>Failed to load program</detailMessage>
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.loadProgramFailed(CpsFlowExecution.java:908)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.loadProgramAsync(CpsFlowExecution.java:893)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.onLoad(CpsFlowExecution.java:825)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.getExecution(WorkflowRun.java:719)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.onLoad(WorkflowRun.java:577)</trace>
+              <trace>hudson.model.RunMap.retrieve(RunMap.java:233)</trace>
+              <trace>hudson.model.RunMap.retrieve(RunMap.java:61)</trace>
+              <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:657)</trace>
+              <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.load(AbstractLazyLoadRunMap.java:639)</trace>
+              <trace>jenkins.model.lazy.AbstractLazyLoadRunMap.getByNumber(AbstractLazyLoadRunMap.java:537)</trace>
+              <trace>hudson.model.RunMap.getById(RunMap.java:213)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.run(WorkflowRun.java:968)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$Owner.get(WorkflowRun.java:980)</trace>
+              <trace>org.jenkinsci.plugins.workflow.flow.FlowExecutionList.resume(FlowExecutionList.java:226)</trace>
+              <trace>org.jenkinsci.plugins.workflow.flow.FlowExecutionList$ItemListenerImpl.onLoaded(FlowExecutionList.java:217)</trace>
+              <trace>jenkins.model.Jenkins.&lt;init&gt;(Jenkins.java:1045)</trace>
+              <trace>hudson.model.Hudson.&lt;init&gt;(Hudson.java:86)</trace>
+              <trace>hudson.model.Hudson.&lt;init&gt;(Hudson.java:82)</trace>
+              <trace>hudson.WebAppMain$3.run(WebAppMain.java:247)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId>
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>a969e548-abb9-491b-ae51-b51bdab7cc66</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+          </error>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1283.v99c10937efcb_">
+          <startTime>1702418661558</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</map>

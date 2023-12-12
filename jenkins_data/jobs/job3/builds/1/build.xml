@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <ru.yandex.qatools.allure.jenkins.AllureReportBuildAction plugin="allure-jenkins-plugin@2.31.1">
+      <run class="build" reference="../../.."/>
+      <reportPath>allure-report</reportPath>
+    </ru.yandex.qatools.allure.jenkins.AllureReportBuildAction>
+  </actions>
+  <queueId>7</queueId>
+  <timestamp>1702409351733</timestamp>
+  <startTime>1702409351749</startTime>
+  <result>FAILURE</result>
+  <duration>30938</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/job3</workspace>
+  <hudsonVersion>2.426.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

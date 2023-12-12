@@ -1,0 +1,60 @@
+commit 71e0c4a073a0dc709ad64961993819bd2c0594d2
+tree 9165fedf3251fe1f15c17c6260fd2f3d62fe244b
+parent 6859f06cba7b2c74a9dbe9d62968bc2472dfae77
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:14:12 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:14:12 +0300
+
+    task4
+
+
+:100644 100644 da3b6bbf5a91167192fd92f45cee8531cbb59eef a8c56e882aaac2cdc313c236fb018f2ebacb0905 M	Jenkinsfile
+commit 6859f06cba7b2c74a9dbe9d62968bc2472dfae77
+tree 7f212cd028fdbe760a5d9e65924a2066b7fcaf32
+parent ae88cef9952f1091d9fa280bc86e8ab9ab3ece81
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:10:45 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:10:45 +0300
+
+    task4
+
+
+:100644 100644 d48296a9cd2772c76c9fdf62e08bb518664b974f da3b6bbf5a91167192fd92f45cee8531cbb59eef M	Jenkinsfile
+commit ae88cef9952f1091d9fa280bc86e8ab9ab3ece81
+tree 3bd2c323bbbd84f44139dcbce95d44e433a1b3be
+parent 0a0701707db1118fa97ea9a322848a28474cf3f7
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:00:41 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 01:00:41 +0300
+
+    task4
+
+
+:100644 100644 b36105d8f1669ba6f93f87875d3809f8b45ee5fb d48296a9cd2772c76c9fdf62e08bb518664b974f M	Jenkinsfile
+commit 0a0701707db1118fa97ea9a322848a28474cf3f7
+tree a04b62b50b254dadaa29aa40deb5a87718b8a4c9
+parent 45f18b1dfe8b13ad61b46b537c0a1a4389b19a0f
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:55:53 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:55:53 +0300
+
+    task4
+
+
+:100644 100644 744b1fe7d4ed239578150c7db16386970210fa45 b36105d8f1669ba6f93f87875d3809f8b45ee5fb M	Jenkinsfile
+commit 45f18b1dfe8b13ad61b46b537c0a1a4389b19a0f
+tree fc0fef9b2f73a8feb99cfba3098d78f7180cfc55
+parent b30b54cad156545879a75e9c7273933dac0cf96d
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:41:35 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:41:35 +0300
+
+    task4
+
+
+:100644 100644 5d585442ca85d1b5dbac29950a96904c7c4301d4 744b1fe7d4ed239578150c7db16386970210fa45 M	Jenkinsfile
+commit b30b54cad156545879a75e9c7273933dac0cf96d
+tree 9eb2f433e39473dce45df02199e44acf026eecb1
+parent c86b2a33bb3b766b0263a59a0bd03bf6869adc3f
+author korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:35:57 +0300
+committer korshunovamm <korshunova.mm@phystech.edu> 2023-12-13 00:35:57 +0300
+
+    task4
+
+
+:000000 100644 0000000000000000000000000000000000000000 5d585442ca85d1b5dbac29950a96904c7c4301d4 A	Jenkinsfile

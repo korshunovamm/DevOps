@@ -1,0 +1,18 @@
+Started at Tue Dec 12 19:32:36 UTC 2023
+Processing job3
+Offering job3 to Project Build Discarder
+Processing demo/job1
+Offering demo/job1 to Project Build Discarder
+Processing demo/job2
+Offering demo/job2 to Project Build Discarder
+Finished at Tue Dec 12 19:32:36 UTC 2023. 9ms
+Started at Tue Dec 12 20:32:36 UTC 2023
+Processing job2
+Offering job2 to Project Build Discarder
+Processing job3
+Offering job3 to Project Build Discarder
+Processing demo/job1
+Offering demo/job1 to Project Build Discarder
+Processing demo/job2
+Offering demo/job2 to Project Build Discarder
+Finished at Tue Dec 12 20:32:36 UTC 2023. 4ms
