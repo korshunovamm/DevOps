@@ -1,6 +1,4 @@
 pipeline {
-    agent {label 'linux'}
-
     stages {
         stage('build & Sonar Analysis') {
             steps{
