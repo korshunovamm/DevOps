@@ -1,5 +1,7 @@
 pipeline {
-    agent 'мастер'
+    agent {
+        label 'мастер'
+    }
     stages {
         stage('build & Sonar Analysis') {
             steps{
