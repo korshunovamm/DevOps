@@ -1,4 +1,5 @@
 pipeline {
+    agent 'мастер'
     stages {
         stage('build & Sonar Analysis') {
             steps{
