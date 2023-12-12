@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import io.qameta.allure.junit4.DisplayName;
 
-public class MainTest {
+public class AppTest {
     @Test
     @DisplayName("Create App")
     public void testAppConstructor() {
